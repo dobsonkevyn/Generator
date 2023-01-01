@@ -1,6 +1,26 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.4",
-    "jest": "^29.3.1"
-  }
+    "name": "CoolEmployees",
+    "version": "1.0.0",
+    "description": "OOP",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest --verbose test/*"
+    },
+    "repository": {
+        "type": "",
+        "url": "git@github.com:dobsonkevyn/Team-Profile-Generator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/dobsonkevyn/Team-Profile-Generator",
+    "dependencies": {
+        "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+        "jest": "^24.8.0"
+    }
 }
